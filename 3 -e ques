@@ -1,17 +1,17 @@
 #!/bin/bash
 # save as time-signal.sh
 
-minute=$(date +%M)
+min=$(date +%M)
 
 
-if [[ $minute -gt 14 && $minute -le 31 ]]; then
+if [[ $min -gt 14 && $min -le 31 ]]; then
      echo -ne "\a"
 
-elif [[ $minute -gt 30 && $minute -le 46 ]]; then
+elif [[ $min -gt 30 && $min -le 46 ]]; then
         echo -ne "\a"
         echo -ne "\a"
 
-elif [[ $minute -gt 45 && $minute -lt 60 ]]; then
+elif [[ $min -gt 45 && $min -lt 60 ]]; then
         echo -ne "\a"
         echo -ne "\a"
         echo -ne "\a"
