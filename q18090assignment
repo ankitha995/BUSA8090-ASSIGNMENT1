@@ -5,5 +5,5 @@ echo "let us search for the newest file"
 echo " Your present directory is:" 
 pwd;
 echo "your newest file is ..............."
-ls -t1 |
-head -n1; 
+$list = ls -t1;
+list | head -n1; 
