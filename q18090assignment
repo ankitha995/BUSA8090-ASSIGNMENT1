@@ -3,8 +3,8 @@
 # Its a scrip for displaying recently created files based on time
 echo "let us search for the new file"
 echo " Your present directory is:" 
-$pwd;
+pwd;
 echo "your new file is ..............."
 echo "got it!"
 ls -t1 |
-head -n1; echo "is ur new file"
+head -n1; 
