@@ -1,0 +1,20 @@
+#!/bin/bash
+# save as time-signal.sh
+
+minute=$(date +%M)
+
+
+if [[ $minute -gt 14 && $minute -le 31 ]]; then
+     echo -ne "\a"
+
+elif [[ $minute -gt 30 && $minute -le 46 ]]; then
+        echo -ne "\a"
+        echo -ne "\a"
+
+elif [[ $minute -gt 45 && $minute -lt 60 ]]; then
+        echo -ne "\a"
+        echo -ne "\a"
+        echo -ne "\a"
+else
+        echo "No Chime"
+fi
