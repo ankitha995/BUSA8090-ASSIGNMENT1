@@ -3,5 +3,6 @@
 # Its a scrip for displaying recently created files based on time
 echo "let us search for the new file"
 echo "got it!"
-ls -t1 | head -n1;
+ls -t 
+head -n;
 echo " is ur new file"
