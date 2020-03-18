@@ -16,7 +16,7 @@ ls -t1 |                      # listing files based on time , newsest to old
 
 head -n1                      # printing out the first item in the list
 
-echo "created time is:"
+echo "accessed time is:"
 
 ls -t | head -n1 | date       # diaplaying date and time of the first file present in the list
 
