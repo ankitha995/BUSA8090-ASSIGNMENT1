@@ -1,9 +1,22 @@
 #!/bin/bash
+
 #save as newer.sh
-# Its a scrip for displaying recently created files based on time
-echo "let us search for the newest file"
-echo " Your present directory is:" 
-pwd;
-echo "your newest file is ..............."
-ls -t1|
-head -n1; 
+
+# Its a script for displaying name of the newest file in your directory (based on time)
+
+echo "HI  $USER!! "          #displays the users name
+
+echo "The current directory your working is:"
+
+pwd;                          # to display the present working directory
+
+echo "the newest file is :-"
+
+ls -t1 |                      # listing files based on time , newsest to old
+
+head -n1                      # printing out the first item in the list
+
+echo "created time is:"
+
+ls -t | head -n1 | date       # diaplaying date and time of the first file present in the list
+
