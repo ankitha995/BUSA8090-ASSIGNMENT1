@@ -1,0 +1,368 @@
+  398  vim test-signal.sh
+  399  ./test-signal.sh
+  400  vim test-signal.sh
+  401  ./test-signal.sh
+  402  vim test-signal.sh
+  403  ls | grep sw
+  404  ls | grep .sh
+  405  ls | grep time
+  406  ls | grep sig
+  407  vim test-signal.sh
+  408  ls
+  409  cd home
+  410  cd ..
+  411  ls
+  412  cd ..
+  413  ls
+  414  cd home
+  415  cd ubuntu
+  416  mkdir programs
+  417  ls
+  418  cd programs
+  419  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--con-sh-exe.sh > con-sh-exe.sh
+  420  ls
+  421  chmod u+x con-sh-exe.sh
+  422  cat con-sh-exe.sh
+  423  ls -l
+  424  ./con-sh-exe.sh
+  425  cd ..
+  426  ls -t1 |  head -n 1
+  427  cd programs/
+  428  ls -t1 |  head -n 1
+  429  touch akhil
+  430  ls -t1 |  head -n 1
+  431  touch ankitha
+  432  ls -t1 |  head -n 1
+  433  rm akhil
+  434  rm ankitha
+ 435  touch -t 202003151800 foo
+  436  touch -t 202003151801 goo
+  437  ls -t1 |  head -n 1
+  438  touch -t 202003181800 akhil
+  439  ls -t1 |  head -n 1
+  440  touch -t 202003181806 ankitha
+  441  touch -t 202003181804 akhi
+  442  ls -t1 |  head -n 1
+  443  ls
+  444  rm akhi
+  445  rm akhil
+  446  rm ankitha
+  447  em foo
+  448  rm foo
+  449  rm goo
+  450  touch newer.sh
+  451  cat newer.sh
+  452  vim newer.sh
+  453  cat newer.sh
+  454  chmod u+x newer.sh
+  455  ls
+  456  ./newer.sh
+  457  vim newer.sh
+  458  chmod u+x newer.sh
+  459  ./newer.sh
+  460  vim newer.sh
+  461  ./newer.sh
+  462  touch akhil
+  463  ./newer.sh
+  464  cd ..
+  465  ./newer.sh
+  466  man ls | grep -t
+  467  man ls | grep t
+  468  man head | grep n
+  469  curl https://raw.githubusercontent.com/ankitha995/assignment/master/q18090assignment > new.sh
+  470  chmod u+x new.sh
+  471  ls
+  472  ./new.sh
+  473  vim new.sh
+  474  chmod u+x new.sh
+  475  ./new.sh
+  476  vim mew.sh
+  477  rm mew.sh
+  478  ls
+  479  vim new.sh
+   480  chmod u+x new.sh
+  481  ./new.sh
+  482  vim new.sh
+  483  chmod u+x new.sh
+  484  ./new.sh
+  485  rm -rf new.sh
+  486  cd home
+  487  cd ..
+  488  ls
+  489  cd ubuntu
+  490  ls
+  491  cd..
+  492  cd ..
+  493  ls
+  494  cd home
+  495  cd ubuntu/
+  496  chmod u+x new.sh
+  497  ./new.sh
+  498  vim new.sh
+  499  chmod u+x new.sh
+  500  ./new.sh
+  501  rm -rf new.sh
+  502  curl https://raw.githubusercontent.com/ankitha995/assignment/master/q18090assignment > new.sh
+  503  chmod u+x new.sh
+  504  ls
+  505  ./new.sh
+  506  vim new.sh
+  507  ./new.sh
+  508  chmod u+x new.sh
+  509  ./new.sh
+  510  vim new.sh
+  511  chmod u+x new.sh
+  512  ./new.sh
+  513  vim new.sh
+  514  chmod u+x new.sh
+  515  ./new.sh
+  516  vim new.sh
+  517  chmod u+x new.sh
+  518  ./new.sh
+  519  vim new.sh
+  520  ./new.sh
+  521  vim new.sh
+  522  ./new.sh
+  523  vim new.sh
+  524  ./new.sh
+ 525  vim new.sh
+  526  ./new.sh
+  527  vim new.sh
+  528  ./new.sh
+  529  chmod u+x new.sh
+  530  ./new.sh
+  531  vim new.sh
+  532  ./new.sh
+  533  vim new.sh
+  534  ./new.sh
+  535  chmod u+x new.sh
+  536  ./new.sh
+  537  vim new.sh
+  538  ./new.sh
+  539  vim new.sh
+  540  ./new.sh
+  541  vim new.sh
+  542  ./new.sh
+  543  vim new.sh
+  544  ./new.sh
+  545  vim new.sh
+  546  ./new.sh
+  547  vim new.sh
+  548  ./new.sh
+  549  vim new.sh
+  550  ./new.sh
+  551  vim new.sh
+  552  ./new.sh
+  553  vim new.sh
+  554  ./new.sh
+  555  vim new.sh
+  556  ./new.sh
+  557  vim new.sh
+  558  ./new.sh
+  559  vim new.sh
+  560  ./new.sh
+  561  vim new.sh
+  562  ./new.sh
+  563  vim new.sh
+  564  ./new.sh
+  565  vim new.sh
+  566  ./new.sh
+  567  curl https://raw.githubusercontent.com/akhil995/8090-assignment/master/newer.sh >akhil.sh
+  568  chmod u+x akhil.sh
+  569  ls
+  570  ./akhil.sh
+  571  vim akhil.sh
+  572  rm -rf akhil.sh
+  573  vim new.sh
+  574  ./new.sh
+  575  vim new.sh
+ 576  ./new.sh
+  577  vim new.sh
+  578  ./new.sh
+  579  vim new.sh
+  580  ./new.sh
+  581  vim new.sh
+  582  ./new.sh
+  583  man head | date
+  584  vim new.sh
+  585  ./new.sh
+  586  man head | grep date
+  587  man head | grep t
+  588  vim new.sh
+  589  date
+  590  ./new.sh
+  591  vim new.sh
+  592  ./new.sh
+  593  touch akhil.sh
+  594  ./new.sh
+  595  vim new.sh
+  596  ./new.sh
+  597  vim new.sh
+  598  ./new.sh
+  599  vim new.sh
+  600  ./new.sh
+  601  vim new.sh
+  602  ./new.sh
+  603  cat akhil.sh
+  604  ./new.sh
+  605  vim akhil .sh
+  606  ./new.sh
+  607  ls
+  608  rm akhil
+  609  rm akhil.sh
+  610  rm -rf akhil.sh
+  611  vim new.sh
+  612  ./new.sh
+  613  vim new.sh
+  614  touch -t 202003201800 anki.sh
+  615  ./new.sh
+  616  vim new.sh
+  617  touch akhil.sh
+  618  ./new.sh
+  619  ls -t
+  620  ls -t1
+  621  ls -t | date
+  622  ls -tu
+  623  ./new.sh
+  624  date
+  625  ls -ltu
+  626  stat --format =%Y
+ 627  stat --format=%Y anki.sh
+  628  stat --format=%y anki.sh
+  629  ls -ltu | head -n1
+  630  ls -tu | head -n1
+  631  stat --format=%y $(ls -t | head -n1)
+  632  vim new.sh
+  633  ./new.sh
+  634  vim new.sh
+  635  ./new.sh
+  636  vim new.sh
+  637  ./new.sh
+  638  vim new.sh
+  639  ./new.sh
+  640  vim new.sh
+  641  ./new.sh
+  642  vim new.sh
+  643  ./new.sh
+  644  vim new.sh
+  645  ./new.sh
+  646  vim new.sh
+  647  test_me.sh
+  648  vim test_me.sh
+  649  chmod u+X test_me.sh
+  650  chmod u+x test_me.sh
+  651  ./test_me.sh
+  652  ./test_me.sh h
+  653  vim test_me.sh
+  654  clear
+  655  history
+  656  ls
+  657  cd ..
+  658  ls
+  659  cd home/
+  660  cd ubuntu/
+  661  ls
+  662  curl
+  663  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--time-signal.sh > ~/bin
+  664  ls
+  665  rm bin
+  666  cd ..
+  667  cd..
+  668  cd ..
+  669  ls
+  670  cd bin
+  671  ls
+  672  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--time-signal.sh > time-signal.sh
+  673  sudo curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--time-signal.sh > time-signal.sh
+  674  cd..
+  675  cd ..
+  676  clear
+ 677  cd home
+  678  cd ubuntu
+  679  curl -o /usr/bin/test-signal.sh https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--time-signal.sh
+  680  sudo curl -o /usr/bin/test-signal.sh https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--time-signal.sh
+  681  cd home
+  682  cd ..
+  683  ls
+  684  cd bin
+  685  ls
+  686  ls -a
+  687  cd ..
+  688  ls
+  689  cd home
+  690  ls
+  691  cd ubuntu
+  692  ls
+  693  cd /usr/bin
+  694  ls -a
+  695  cd ubuntu
+  696  cd ..
+  697  ls
+  698  cd home
+  699  cd ubuntu
+  700  cd usr/bin
+  701  cd /usr/bin
+  702  cd ..
+  703  cd /usr/bin
+  704  vim test-signal.sh
+  705  chmod u+x test-signal.sh
+  706  ./test-signal.sh
+  707  sudo chmod u+x test-signal.sh
+  708  sudo ./test-signal.sh
+  709  vim test-signal.sh
+  710  sudo chmod 777 time-signal.sh
+  711  sudo chmod 777 test-signal.sh
+  712  vim test-signal.sh
+  713  ./test-signal.sh
+  714  vim test-signal.sh
+  715  ./test-signal.sh
+  716  vim test-signal.sh
+  717  ./test-signal.sh
+  718  vim test-signal.sh
+  719  ./test-signal.sh
+  720  vim test-signal.sh
+  721  ./test-signal.sh
+  722  vim test-signal.sh
+  723  ./test-signal.sh
+  724  sudo ./test-signal.sh
+  725  history
+  726  vim test-signal.sh
+  727  sudo ./test-signal.sh
+  728  vim test-signal.sh
+  729  man date
+  730  vim test-signal.sh
+  731  sudo ./test-signal.sh
+  732  vim test-signal.sh
+  733  sudo ./test-signal.sh
+  734  vim test-signal.sh
+  735  sudo ./test-signal.sh
+  736  vim test-signal.sh
+  737  sudo ./test-signal.sh
+  738  vim test-signal.sh
+  739  sudo ./test-signal.sh
+  740  vim test-signal.sh
+  741  sudo ./test-signal.sh
+  742  vim test-signal.sh
+  743  sudo ./test-signal.sh
+  744  vim test-signal.sh
+  745  sudo ./test-signal.sh
+  746  vim test-signal.sh
+  747  sudo ./test-signal.sh
+  748  vim test-signal.sh
+  749  sudo ./test-signal.sh
+  750  vim test-signal.sh
+  751  sudo ./test-signal.sh
+  752  vim test-signal.sh
+  753  sudo ./test-signal.sh
+  754  vim test-signal.sh
+  755  sudo ./test-signal.sh
+  756  vim test-signal.sh
+  757  sudo ./test-signal.sh
+  758  vim test-signal.sh
+  759  sudo ./test-signal.sh
+  760  vim test-signal.sh
+  761  sudo ./test-signal.sh
+  762  vim test-signal.sh
+  763  history
+  764  history > history.txt
+                                                                                                                                                              750,1         Bot
